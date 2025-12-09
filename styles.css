@@ -1,0 +1,181 @@
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    left: 55px;
+    top:15px;
+}
+body{
+    background-color: Blue;
+    overflow-x: hidden;
+}
+.sidebar{
+    
+    position: absolute;
+    float:right;
+    width: 40vw;
+    height: 100%;
+    justify-content:right;
+    top: 0px;
+    right: 5px;
+}
+.element{
+    position: relative;
+    right: -24vw;
+    margin-top: 8px;
+    width: 300px;
+    height: 170px;
+    border:solid black;
+    background-color: azure;
+    border: 5px solid black;
+    
+}
+.content{
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border: 6px solid black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 9%;
+}
+
+.holder{
+    position: absolute;
+    top: 30%;
+    
+    /* justify-self: center;
+    align-items: center; */
+   width: 100vw;
+   height: 50vh;
+
+    align-self: center;
+}
+.para{
+    position: absolute;
+    top: 27px;
+    left: 38%;
+    width: 800px;
+    height: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+
+    line-height: 35px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.image{
+    position: absolute;
+ 
+}
+.image img{
+    
+    width: 59px;
+    height: 50px;
+}
+.TR{
+    position: relative;
+    bottom: 20px;
+    left: 85px;
+    transform: rotate(90deg);
+}
+.TL{
+    position: relative;
+    left: 1500px;
+    transform: rotate(180deg);
+}
+.BL{
+    position: relative;
+   top: 450px;
+   left: 85px;
+}
+.BR{
+    position: relative;
+    transform: rotate(270deg);
+    top:450px;
+    left:1500px;
+}
+.txt{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: 200;
+    color: white;
+    word-spacing: 3px;
+}
+.btn{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+  
+    justify-content: start;
+    padding-top: 10px;
+    
+}
+.btn button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    box-shadow: none;
+}
+.btn2{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+
+
+}
+.btn2 button{
+    width: 180px;
+    height: 40px;
+
+}
+.code{
+    background-color: black;
+    color: white;
+}
+.demo{
+    background-color: white;
+    color: black;
+}
+.gith{
+    width: 10px;
+    height: 10px;
+    color: wheat;
+}
+.title{
+    word-spacing: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+    font-weight: 200;
+    color: white;
+    position: absolute;
+    top: -80px;
+}
+.hamburger{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+.ham{
+    height: 50px;
+    width: 50px;
+}
+.element:hover{
+    cursor: pointer;
+}
